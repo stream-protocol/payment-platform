@@ -22,7 +22,7 @@ export const ChannelCreationProgress = () => {
         return step;
     }
     return (
-        <Card style={{ backgroundColor: "#F9FAFB" }}>
+        <Card style={{ backgroundColor: "#f5f5f5" }}>
             <Steps
                 current={checkStep(status)}
                 items={[

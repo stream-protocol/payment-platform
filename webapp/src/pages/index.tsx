@@ -19,7 +19,7 @@ export default function Index() {
     return (
         <div style={{ maxWidth: 1440, margin: "auto", padding: 10 }}>
             <div style={{ textAlign: "center", maxWidth: 600, margin: "auto" }}>
-                <Text style={{ color: "blue" }} strong>FEATURES &#111827;</Text>
+                <Text style={{ color: "black" }} strong>FEATURES &#111827;</Text>
                 <Title level={2} style={{ fontWeight: 700 }}>Unlocking the Potential of DAOs and Seamless Payments!</Title>
             </div>
             <br />

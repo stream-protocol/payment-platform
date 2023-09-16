@@ -5,25 +5,26 @@ import { Proposals } from './Proposals';
 import { TreasuryInfo } from './TreasuryInfo';
 
 export const DaoTabs = () => {
-    const tabPaneList: TabsProps['tabPaneList'] = [
+
+    const items: TabsProps['items'] = [
         {
             key: '1',
-            tab: `Proposals`,
-            content:  <Proposals />,
+            label: `Proposals`,
+            children:  <Proposals />,
         },
         {
             key: '3',
-            tab: `Treasury Details`,
-            content: <TreasuryInfo />,
+            label: `Treasury Details`,
+            children: <TreasuryInfo />,
         },
         {
             key: '4',
-            tab: `Members`,
-            content: <Members />,
+            label: `Members`,
+            children: <Members />,
         },
     ];
 
     return (
-        <Tabs defaultActiveKey="1" tabPaneList={tabPaneList} onChange={() => { }} />
-    );
+        <Tabs defaultActiveKey="1" items={items} onChange={() => { }} />
+    )
 }

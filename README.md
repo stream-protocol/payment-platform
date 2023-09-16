@@ -147,3 +147,7 @@ At this phase, StreamPay™ serves as an MVP that represents the core ideas of o
 15. Develop StreamPayments™ APIs and SDKs to enable easy integration and interaction with StreamPay™'s features.
 
 16. Conduct research and expand business use cases to identify new opportunities and potential areas for growth.
+
+# Fuel Wallet
+
+<https://chrome.google.com/webstore/detail/fuel-wallet/dldjpboieedgcmpkchcjcbijingjcgok?utm_source=ext_app_menu>

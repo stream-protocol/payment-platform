@@ -159,7 +159,7 @@ export const LayoutProvider = (props: Props) => {
                                 {
                                     key: '12',
                                     icon: <FaSuperscript />,
-                                    label: 'Twitter',
+                                    label: 'X',
                                     onClick: () => window.open("https://x.com/stream_protocol", "_blank")
                                 },
                                 {

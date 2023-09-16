@@ -7,7 +7,7 @@ export type DaoFormState = {
     quorum: number,
     open: boolean,
     dao_type: number,
-    twitter?: string,
+    X?: string,
     github?: string,
     discord?: string, 
     members: {address: string}[],

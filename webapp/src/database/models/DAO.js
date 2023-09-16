@@ -38,7 +38,7 @@ let dao = new Schema({
         type: String,
         require: true,
     },
-    twitter: {
+    X: {
         type: String,
         require: false,
     },

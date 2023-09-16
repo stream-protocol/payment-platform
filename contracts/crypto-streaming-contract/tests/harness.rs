@@ -42,7 +42,7 @@ async fn can_create_stream() {
     let wallet_1 = wallets.get(0).unwrap();
     let wallet_2 = wallets.get(1).unwrap();
     let wallet_3 = wallets.get(2).unwrap();
-    // Initilize Stream
+    // Initialize Stream
 
     let config: Config = Config {
         start_date: 0,

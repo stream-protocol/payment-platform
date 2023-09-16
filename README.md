@@ -1,4 +1,4 @@
-# Project Name: StreamPay™ / StreamFinance - Disbursement Platform
+# Project: StreamPay™ / StreamFinance - Disbursement Platform
 
 ## Introduction
 

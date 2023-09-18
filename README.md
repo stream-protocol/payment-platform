@@ -1,10 +1,10 @@
-# Project: StreamPay™ / StreamFinance - Disbursement Platform
+# Project: StreamPay™ Payment Platform
 
 ## Introduction
 
-StreamPay™ operates on the Solana and FUEL testnet and offers a seamless DAO creation experience, eliminating the need for coding knowledge within organizations. Fuel Blockchain is The World's Fastest Modular Execution Layer. The StreamPay platform facilitates smooth payments to users and other DAOs through Payout and Funding proposals, supported by transparent voting mechanisms. Our product also provides Crypto streaming and Payment channels for real-time transactions with minimal gas fees. With decentralized contract (programs) deployment for each DAO, Stream, or Channel, StreamPay™ / StreamFinance ensures secure and efficient fund management.
+StreamPay™ operates on the Solana and FUEL testnet and offers a seamless DAO creation experience, eliminating the need for coding knowledge within organizations. Fuel Blockchain is The World's Fastest Modular Execution Layer. The StreamPay™ platform facilitates smooth payments to users and other DAOs through Payout and Funding proposals, supported by transparent voting mechanisms. Our product also provides Crypto streaming and Payment channels for real-time transactions with minimal gas fees. With decentralized contract (programs) deployment for each DAO, Stream, or Channel, the StreamPay™ platform ensures secure and efficient fund management.
 
-Our vision extends beyond payments; we plan to integrate StreamPay™ into remote jobs markets, empowering users with transformative features.
+Our vision extends beyond payments; we plan to integrate the StreamPay™ platform into remote jobs markets, empowering users with transformative features.
 
 ## Table of Contents
 
@@ -20,7 +20,7 @@ Our vision extends beyond payments; we plan to integrate StreamPay™ into remot
 7. Conclusion
 
 ## 1. Overview
-StreamPay™ aims to offer payment solutions catering to both DAOs and Individuals. Our primary target audience consists of Solana, StreamPay and FUEL users seeking seamless payroll, funding, and vesting solutions. By providing these services, we strive to contribute to the growth and expansion of the ecosystems.
+StreamPay™ aims to offer payment solutions catering to both DAOs and Individuals. Our primary target audience consists of Solana, StreamPay™, and FUEL Network users seeking seamless payroll, funding, and vesting solutions. By providing these services, we strive to contribute to the growth and expansion of the ecosystems.
 
 ## 2. Key Features
 
@@ -28,26 +28,26 @@ StreamPay™ aims to offer payment solutions catering to both DAOs and Individua
 StreamPay™ empowers organizations to effortlessly create DAOs through an intuitive interface, allowing for easy configuration of DAO parameters, governance rules, and voting mechanisms. By eliminating the complexities of coding, StreamPay™ becomes accessible to a broader range of users.
 
 ### Transparent Governance with Voting Mechanism:
-Within each DAO, StreamPay™ / StreamFinance allows users to propose Payouts and Funding requests. The community participates in a democratic voting process to approve or reject these proposals, ensuring transparency and effective fund management.
+Within each DAO, StreamPay™ platform allows users to propose Payouts and Funding requests. The community participates in a democratic voting process to approve or reject these proposals, ensuring transparency and effective fund management.
 
 ### Seamless Payments and Payouts:
 StreamPay™ facilitates seamless payments to individual users and other DAOs, including StreamDAO, both internally and externally. This feature fosters collaboration and financial interactions within the Solana and FUEL ecosystem.
 
-### Crypto Streaming:
-StreamPay™ introduces Crypto streaming, a cutting-edge feature that enables real-time payments based on continuous streams of funds. This dynamic payment method suits various use cases, such as subscription-based services.
+### Payment / Crypto Streaming:
+StreamPay™ introduces Payment (Crypto) streaming, a cutting-edge feature that enables real-time payments based on continuous streams of funds. This dynamic payment method suits various use cases, such as subscription-based services.
 
 ### Payment Channels for Efficiency:
 Leveraging Payment channels, StreamPay™ ensures near-instantaneous and cost-effective transactions for users. By reducing gas fees, this feature is especially advantageous for microtransactions and frequent transfers.
 
 ### Decentralized Contract Architecture: 
-Each DAO, Crypto Stream, or Payment Channel in StreamPay™ is deployed as a separate Solana program and smart contract on the FUEL testnet. This decentralized architecture ensures enhanced security and mitigates risks, as no central contract holds all the funds.
+Each DAO, Payment Stream, and Payment Channel in StreamPay™ is deployed as a separate Solana program and smart contract on the FUEL testnet. This decentralized architecture ensures enhanced security and mitigates risks, as no central contract holds all the funds.
 
 ## 3. How StreamPay™ Platform Works
 
 ### DAO & Payment Management
 The primary flow of DAOs and Payment proposal management is as follows:
 
-![](webapp/public/docs/dao_management.jpg)
+![DAO Management](webapp/public/docs/dao_management.jpg)
 
 Additionally, the application offers several other features, including:
 
@@ -56,11 +56,11 @@ Additionally, the application offers several other features, including:
 - Updating whitelist contributors
 - Accessing DAO and Treasury statistics.
 
-### Crypto Streaming
+### Payment (Crypto) Streaming
 
 The primary flow of a Stream is as follows:
 
-![](webapp/public/docs/crypto_streaming.jpg)
+![Crypto Streaming](webapp/public/docs/crypto_streaming.jpg)
 
 **Additional features include:**
 
@@ -72,7 +72,7 @@ To ensure fairness to both parties, users must possess the qualified assigned pr
 
 ### Payment Channels
 
-![](webapp/public/docs/payment_channels.jpg)
+![Payment Channels](webapp/public/docs/payment_channels.jpg)
 
 This is an MVP implementation for the payment channel concept. However, it still requires improvement to address critical security issues.
 
@@ -88,27 +88,25 @@ This is an MVP implementation for the payment channel concept. However, it still
 
 ## 5. Technical Implementation
 
-![](webapp/public/docs/system_architect.jpg)
+![System Architecture](webapp/public/docs/system_architect.jpg)
 
 **Creating an Architecture and Developing StreamPay™:**
 
 - Developed a comprehensive UI/UX concept to outline the application's requirements and functionalities.
 
-- Created a StreamPay program to collect transaction fees on the Solana blockchain.
+- Created a StreamPay™ program to collect transaction fees on the Solana blockchain.
 
 - Utilized Rust and Solidity programming languages to write smart contracts, enabling efficient contract development.
 
 - Implemented autotest scripts to ensure the robustness and reliability of the most crucial features.
 
-- Designed an offchain database, initially considering indexer integration, but due to technical challenges, opted for a cloud-based MongoDB solution.
+- Designed an off-chain database, initially considering indexer integration, but due to technical challenges, opted for a cloud-based MongoDB solution.
 
 - Integrated StreamPay™ with Solana, fuels-ts, and wallet SDK to facilitate smooth interactions with the FUEL blockchain.
 
 - Developed and wrote the core components of StreamPay™, laying the foundation for its various functionalities.
 
-- Progressively completed the planned features
-
- according to our development roadmap.
+- Progressively completed the planned features according to our development roadmap.
 
 ## 6. Future Developments
 
@@ -124,9 +122,9 @@ At this phase, StreamPay™ serves as an MVP that represents the core ideas of o
 
 4. Expand proposal types to cover a wide range of payment and governance scenarios, enhancing the platform's functionality.
 
-5. Support parent and children DAOs architecture to facilitate hierarchical organization structures and collaborations.
+5. Support parent and children DAO architecture to facilitate hierarchical organization structures and collaborations.
 
-6. Introduce batch streams and channels deployment, streamlining the process for multiple transactions.
+6. Introduce batch streams and channel deployment, streamlining the process for multiple transactions.
 
 7. Implement a personal invoice system for users, enhancing transparency and ease of payment management.
 
@@ -144,10 +142,16 @@ At this phase, StreamPay™ serves as an MVP that represents the core ideas of o
 
 14. Conduct a thorough audit of all smart contracts to ensure security and reliability.
 
-15. Develop StreamPayments™ APIs and SDKs to enable easy integration and interaction with StreamPay™'s features.
+15. Develop StreamPayments™ and StreamPay™ APIs and
+
+ SDKs to enable easy integration and interaction with StreamPay's features.
 
 16. Conduct research and expand business use cases to identify new opportunities and potential areas for growth.
 
 # Fuel Wallet
 
-<https://chrome.google.com/webstore/detail/fuel-wallet/dldjpboieedgcmpkchcjcbijingjcgok?utm_source=ext_app_menu>
+[Get Fuel Wallet](https://chrome.google.com/webstore/detail/fuel-wallet/dldjpboieedgcmpkchcjcbijingjcgok?utm_source=ext_app_menu)
+
+# Documentation
+
+[StreamPay™ Documentation](https://streamprotocol.gitbook.io/streampay-payment-platform/)
